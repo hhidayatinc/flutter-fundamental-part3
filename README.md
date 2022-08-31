@@ -17,3 +17,15 @@ Praktikum 2: Menerapkan Input Widget dan Forms
 ![Praktikum2_2](images/Praktikum2_2.png)
 ![Praktikum2_3](images/Praktikum2_3.png)
 ![Praktikum2_4](images/Praktikum2_4.png)
+
+Praktikum 3: Menerapkan Custom Input dan FormField Widget
+- Custom input ini hanya memperbolehkan angka 1-9 saja untuk diinputkan
+- Ini dapat terjadi karena pada bagin file input_fields.dart terdapat kode program yang mengatur.
+- Contoh kode program: inputFormatters: [
+        FilteringTextInputFormatter.allow(RegExp("[0-9]")),
+        LengthLimitingTextInputFormatter(6),
+      ],
+- Jadi jika menginputkan huruf maka tidak bisa
+![Praktikum3_1](images/Praktikum3_1.png)
+![Praktikum3_2](images/Praktikum3_2.png)
+![Praktikum3_3](images/Praktikum3_3.png)
