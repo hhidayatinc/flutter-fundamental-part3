@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fundamental_3/forms.dart';
 import 'package:flutter_fundamental_3/image_widget.dart';
 
 void main() {
@@ -98,20 +99,21 @@ class _MyHomePageState extends State<MyHomePage> {
             // horizontal).
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              const MyImageWidget(),
-              Text(
-                '$_counter',
-                style: Theme.of(context).textTheme.headline4,
-              ),
+              // const Text('You have pushed the button this many times:'),
+              // Text(
+              //   '$_counter',
+              //   style: Theme.of(context).textTheme.headline4,
+              // ),
+              const FormContoh()
             ],
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () {},
+      //   tooltip: 'Increment',
+      //   child: const Icon(Icons.add),
+      // ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
